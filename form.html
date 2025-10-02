@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>form</title>
+
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend>ENQUIRY</legend>
+        NAME:<input type="text" name="name" value="" placeholder="Enter your full name here..." required=""/> 
+        <br/>
+        <br/>
+        ADDRESS:<textarea name="address"></textarea>
+        <br/>
+        <br/>
+        GENDER:
+        <input type="radio" name="gender" value="M"/>Male
+        <input type="radio" name="gender" value="F"/>Female
+        <input type="radio" name="gender" value="O"/>Other
+        <br/>
+        <br/>
+        COUNTRY:
+
+        <select >
+           <option>Please seelct your country</option>
+            <optgroup label="ASIA">
+                <option>INDIA</option>
+                <option>SRI LANKA</option>
+            </optgroup>
+            
+            <option>USA</option>
+            <option >GERMANY</option>
+            <option>CANADA</option>
+            
+        </select>
+        <br/>
+        <br/>
+        HOBBIES:
+        <input type="checkbox" />dancing
+        <input type="checkbox"/>singing
+        <br/>
+        <br/>
+        IMAGE:
+        <input type="file" name="image"/>
+        <br/>
+        <br/>
+        <input type="submit" name="send"/>
+        <input type="reset" name="reset"/> 
+    </fieldset>  
+    </form>
+</body>
+</html>
